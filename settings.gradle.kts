@@ -23,3 +23,4 @@ rootProject.name = "MobPro Exercises"
 include(":app")
 include(":firstappskeleton")
 include(":ui-demo")
+include(":persistenz")

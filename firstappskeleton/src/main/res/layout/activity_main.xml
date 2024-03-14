@@ -42,7 +42,7 @@
 
 	<TextView
 		android:id="@+id/main_textView_result"
-		android:layout_width="wrap_content"
+		android:layout_width="377dp"
 		android:layout_height="wrap_content"
 		android:paddingTop="@dimen/activity_horizontal_margin"
 		android:text=""
