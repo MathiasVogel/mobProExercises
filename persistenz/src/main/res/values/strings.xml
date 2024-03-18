@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">Persistenz</string>
+    <string name="module_name">HSLU Mobile Programming</string>
+
+    <!-- Preferences -->
+    <string name="preferences_header">Application-Preferences</string>
+    <string name="preferences_calls">OverviewFragment.onResume() wurde seit der Installation dieser App 0 mal aufgerufen.</string>
+    <string name="preferences_settings">Ich trinke am liebsten Lipton/Pfefferminze, ungesüsst.</string>
+    <string name="preferences_button_edit">TEE-PREFERENCES EDITIEREN</string>
+    <string name="preferences_button_set">TEE-DEFAULT-PREFS SETZEN</string>
+
+    <!-- Data-System -->
+    <string name="data_system_header">Dateisystem</string>
+    <string name="data_system_checkbox">Externen Speicher benutzen</string>
+    <string name="data_system_description">External storage is mounted (writable)</string>
+    <string name="data_system_text_field">Irgendein Text</string>
+    <string name="data_system_button_save">SPEICHERN</string>
+    <string name="data_system_button_load">LADEN</string>
+
+    <!-- Room DB -->
+    <string name="room_header">Room DB</string>
+    <string name="room_button_create">NOTIZ ERZEUGEN</string>
+    <string name="room_button_show">NOTIZEN ZEIGEN</string>
+
+    <!-- Content Provider -->
+    <string name="provider_header">Content Provider</string>
+    <string name="provider_button">SMS ANZEIGEN</string>
 </resources>

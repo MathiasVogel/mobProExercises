@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Theme -->
+    <color name="light_theme">#737373</color>
+
+    <!-- Background fragment_overview -->
+    <color name="background">#EAEAEA</color>
+    <color name="background_header">#A6DC66</color>
+    <color name="background_button">#737373</color>
+    <color name="text_color_button">#00BCD4</color>
 </resources>

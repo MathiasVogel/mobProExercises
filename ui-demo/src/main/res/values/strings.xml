@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">UI-Demo</string>
+    <string name="mainTitle">UI-Demo</string>
+    <string name="radioButton2">Constraint Layout</string>
+    <string name="radioButton1">Linear Layout</string>
+    <string name="infoText">Wilkommen zur Übung 2.</string>
+    <string name="radioGroupLabel"><![CDATA[1. Layouts: Linear & Containt]]></string>
+    <string name="starLabel">2. Events am Bsp. RatingBar</string>
+    <string name="spinnerLabel">3. Spinner</string>
+    <string name="dialogLabel">4. Dialog</string>
+    <string name="linearLayoutString1">Ich bin ein vertikales LinearLayout.</string>
+    <string name="linearLayoutString2">Ich bin ein horizontales LinearLayout.</string>
+    <string name="title_constraint_layout">Beispiel Constraint-Layout</string>
 </resources>
