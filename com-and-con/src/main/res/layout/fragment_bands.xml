@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BandsFragment"
+    android:background="@color/background"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:text="@string/app_name"
+            android:textSize="@dimen/h1"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+        />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/custom_divider"
+        />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer"
+        />
+
+        <Button
+            android:id="@+id/button_communication"
+            android:text="@string/button_communication"
+            android:background="@drawable/button_angular"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer"
+        />
+
+        <Button
+            android:id="@+id/button_server_request"
+            android:text="@string/button_server_request"
+            android:background="@drawable/button_angular"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+        />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer"
+        />
+
+        <Button
+            android:id="@+id/button_reset_view_model"
+            android:text="@string/button_reset_view_model"
+            android:background="@drawable/button_angular"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+        />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer"
+        />
+
+        <TextView
+            android:id="@+id/text_bands_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_bands_count"
+        />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer"
+        />
+
+        <Button
+            android:id="@+id/button_show_band_selection"
+            android:text="@string/button_show_band_selection"
+            android:background="@drawable/button_angular"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+        />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer"
+        />
+
+        <TextView
+            android:id="@+id/text_bands_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_bands_name"
+        />
+
+        <TextView
+            android:id="@+id/text_bands_country_foundation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_bands_country_foundation"
+        />
+
+    </LinearLayout>
+</ScrollView>

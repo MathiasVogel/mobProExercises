@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kommunikation und Nebenläufigkeit</string>
+    <string name="button_communication"><![CDATA[KOMMUNIKATION (HTTP & JSON)]]></string>
+    <string name="button_server_request">SERVER-ANFRAGE STARTEN</string>
+    <string name="button_reset_view_model">VIEW-MODEL ZURÜCKSETZEN</string>
+    <string name="button_show_band_selection">ZEIGE BAND-AUSWAHL AN</string>
+    <string name="text_bands_count">#Bands = 0</string>
+    <string name="text_bands_name">Coldplay</string>
+    <string name="text_bands_country_foundation">England, Gündung: 1996</string>
+</resources>
