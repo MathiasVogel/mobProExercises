@@ -7,4 +7,5 @@
     <string name="text_bands_count">#Bands = 0</string>
     <string name="text_bands_name">Coldplay</string>
     <string name="text_bands_country_foundation">England, Gündung: 1996</string>
+    <string name="sub_title"><![CDATA[Kommunikation (HTTP & JSON)]]></string>
 </resources>

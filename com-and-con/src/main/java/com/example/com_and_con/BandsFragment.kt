@@ -15,33 +15,28 @@ class BandsFragment : Fragment(R.layout.fragment_bands){
 
     override fun onStart() {
         super.onStart()
-        bandsViewModel.loadBands()
 
-        viewLifecycleOwner.lifecycleScope.launch {
-            bandsViewModel.bandsFlow.collect { bands ->
-                val textView = view?.findViewById<TextView>(R.id.text_bands_count)
-                textView?.text = "Anzahl Bands: ${bands.size}"
-            }
-        }
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         // Zugriff auf die Buttons per ID
-        val buttonCommunication = view.findViewById<Button>(R.id.button_communication)
         val buttonRequestServer = view.findViewById<Button>(R.id.button_server_request)
         val buttonResetViewModel = view.findViewById<Button>(R.id.button_reset_view_model)
         val buttonShowBandSelection = view.findViewById<Button>(R.id.button_show_band_selection)
 
         // OnClickListener definieren
-        buttonCommunication.setOnClickListener {
-
-        }
         buttonRequestServer.setOnClickListener {
-
+            bandsViewModel.loadBands()
+            viewLifecycleOwner.lifecycleScope.launch {
+                bandsViewModel.bandsFlow.collect { bands ->
+                    val textView = view?.findViewById<TextView>(R.id.text_bands_count)
+                    textView?.text = "Anzahl Bands: ${bands.size}"
+                }
+            }
         }
         buttonResetViewModel.setOnClickListener {
-
+            bandsViewModel.resetBandsData()
         }
         buttonShowBandSelection.setOnClickListener {
 

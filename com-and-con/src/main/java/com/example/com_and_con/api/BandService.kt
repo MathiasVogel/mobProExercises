@@ -1,5 +1,5 @@
 package com.example.com_and_con.api
-import com.example.com_and_con.BandCode
+import com.example.com_and_con.classes.BandCode
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType

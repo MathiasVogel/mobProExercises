@@ -11,7 +11,5 @@
     <color name="background_header">#A6DC66</color>
     <color name="background_button">#737373</color>
     <color name="text_color_button">#00BCD4</color>
-
-    <!-- Button -->
-    <color name="big_button">#fcba03</color>
+    <color name="sub_title">#fcba03</color>
 </resources>

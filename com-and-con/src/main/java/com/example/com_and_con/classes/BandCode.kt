@@ -1,4 +1,4 @@
-package com.example.com_and_con
+package com.example.com_and_con.classes
 import kotlinx.serialization.Serializable
 
 @Serializable

@@ -3,6 +3,7 @@ package com.example.com_and_con
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.com_and_con.api.createRetrofitService
+import com.example.com_and_con.classes.BandCode
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -21,5 +22,7 @@ class BandsViewModel: ViewModel() {
             }
         }
 
-
+        fun resetBandsData() {
+            _bandsFlow.value = emptyList()
+        }
 }
